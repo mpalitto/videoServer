@@ -1,0 +1,6 @@
+#/etc/init.d/rc.local
+# chmod +x /etc/init.d/rc.local
+# update-rc.d rc.local defaults
+# update-rc.d rc.local enable
+
+nohup /root/reverseTunnel.sh &
